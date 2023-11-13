@@ -14,7 +14,7 @@ var end = new Date('11/14/2023 12:00 AM');
             clearInterval(timer);
             var divContain = document.querySelector('div.container');
             divContain.style.justifyContent = 'center';
-            divContain.innerHTML = '<div id="temp"><a href="./public/FlyingRocket.html" class="button"><svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>Click to Launch</a></div>';
+            divContain.innerHTML = '<div id="temp"><a href="./public/Birthday.html" class="button"><svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>Click to Launch</a></div>';
             return;
         }
         var days = Math.floor(distance / _day);
